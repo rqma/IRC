@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">智能小车</string>
+    <string name="RUNNING_DOWN">后退</string>
+    <string name="RUNNING_LEFT">左转</string>
+    <string name="RUNNING_LEFT_DOWN">左后</string>
+    <string name="RUNNING_LEFT_UP">左前</string>
+    <string name="RUNNING_RIGHT">右转</string>
+    <string name="RUNNING_RIGHT_DOWN">右后</string>
+    <string name="RUNNING_RIGHT_UP">右前</string>
+    <string name="RUNNING_STOP">暂停</string>
+    <string name="RUNNING_UP">前进</string>
+
+</resources>

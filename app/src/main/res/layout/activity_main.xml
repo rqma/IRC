@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_vv"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:minHeight="250dp"
+        android:layout_margin="20dp"
+        android:visibility="visible">
+        <!-- <SurfaceView
+             android:id="@+id/sv_camera"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true" />-->
+    </RelativeLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt_left_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_LEFT_UP"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bt_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_UP"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bt_right_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_RIGHT_UP"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt_left"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_LEFT"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bt_stop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_STOP"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bt_right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_RIGHT"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bt_left_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_LEFT_DOWN"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bt_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_DOWN"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bt_right_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/RUNNING_RIGHT_DOWN"
+                android:textColor="#006fff"
+                android:textSize="25sp" />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/bt_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="按图索骥"
+            android:textColor="#006fff"
+            android:textSize="25sp" />
+    </TableLayout>
+
+
+</LinearLayout>
+
